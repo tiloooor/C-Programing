@@ -10,5 +10,7 @@ int main() {
   // Must use a hexadecimal number to display the address
   printf("The address of val is: %x \n", &val);
   printf("The value of the pointer variable is:  %x \n", &val);
+
+  // Dereference the pointer: Get the value at that pointer 
   printf("The value the pointer is: %d", *pointer_p);
 }
